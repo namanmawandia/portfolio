@@ -12,7 +12,6 @@
 </head>
 <body>
 
-    <!-- NAVBAR -->
     <nav>
         <div class="nav-container">
             <div class="logo">NM</div>
@@ -28,10 +27,9 @@
     <!-- HERO -->
     <section class="hero">
         <h1>Naman Mawandia</h1>
-        <h2>Software Engineer | Systems, Networking & Android</h2>
+        <h2>Software Engineer | Android, Systems & Machine Learning</h2>
         <p>
-            I build performance-critical systems, low-level networking tools,
-            and polished Android applications — from kernel space to user experience.
+            Seeking full-time SWE opportunities focused on building intelligent and scalable applications. Passionate about contributing to the rapid growth of innovative startups.
         </p>
         <div class="hero-buttons">
             <a href="#projects" class="btn primary">View Projects</a>
@@ -72,16 +70,31 @@
     <section id="about" class="section">
         <h3>About Me</h3>
         <p>
-            I’m a Software Engineer with industry experience at <strong>Samsung Research</strong>,
-            where I worked on Android platform features, TCP/IP diagnostics,
-            and latency-sensitive systems.
+            I am a <b>Software Engineer</b> and a CS MS graduate from
+            <a href="https://www.buffalo.edu/" target="_blank">SUNY Buffalo</a> with industry experience at 
+            <a href="https://research.samsung.com/sri-n" target="_blank">Samsung Research</a>. 
+            During my tenure at Samsung, I delivered high impact features, from reducing VoIP call 
+            latency to under 50ms to deploying deep learning-based video interpolation models for thousands of users.         
         </p>
+        <br/>
         <p>
-            My interests lie in <strong>operating systems, networking, Android development,
-            and applied machine learning</strong>. I’m currently pursuing an MS in Computer
-            Science at <strong>SUNY Buffalo</strong>, focusing on distributed systems,
-            modern networking, and computer architecture.
+            My expertise lies in building smart mobile applications and reliable backend systems that work seamlessly together. 
+            I enjoy the challenge of taking complex technical concepts whether it's an advanced AI model or 
+            a networking improvement and turning them into fast, easy-to-use products that can scale to millions of users. 
+            I am driven by a passion for "under-the-hood" engineering that results in a noticeably better experience for the person using the app.
         </p>
+        <br/>
+        <div class="skills-grid">
+            <span>C / C++</span>
+            <span>Python</span>
+            <span>Kotlin</span>
+            <span>Java</span>
+            <span>Go</span>
+            <span>Linux</span>
+            <span>TCP/IP</span>
+            <span>Android</span>
+            <span>TensorFlow</span>
+        </div>
     </section>
 
     <!-- EXPERIENCE -->
@@ -91,21 +104,29 @@
         <div class="card">
             <h4>Software Engineer — Samsung Research</h4>
             <span class="date">Jan 2022 – Jul 2024</span>
-            <ul>
-                <li>Built kernel-space TCP drop tracing tools in C, reducing debug cycles by 40%.</li>
-                <li>Instrumented deep TCP/IP diagnostics to optimize call setup latency under 50ms.</li>
-                <li>Developed Android features including document classification and slow-motion video using TensorFlow Lite.</li>
-                <li>Co-authored an IEEE research paper on power-efficient multi-hop D2D communication.</li>
-            </ul>
+            <p>
+                At Samsung Research, I worked across the full mobile stack to deliver intelligent features and improve network reliability. 
+                I specialized in integrating on-device Machine Learning, specifically using TensorFlow Lite for real-time video interpolation 
+                and automated document organization. On the systems side, I engineered kernel-space C tools to trace TCP packet drops 
+                and optimized network diagnostics to ensure ultra-low latency (under 50ms) for VoIP services.
+                My work combined academic rigor, including a co-authored 
+                <a href="https://ieeexplore.ieee.org/abstract/document/10170371" target="_blank">IEEE research paper on D2D communication</a>, 
+                with the technical agility required to ship features to millions of global users.
+            </p>
+            <span>C · Kotlin · Python · Wireshark · Android · TensorFlow</span>
         </div>
 
         <div class="card">
             <h4>Analyst — Axis Bank</h4>
             <span class="date">May 2021 – Jul 2021</span>
-            <ul>
-                <li>Developed incentive simulation dashboards using Tableau and Excel.</li>
-                <li>Improved earnings estimation accuracy by 21% using clustering techniques.</li>
-            </ul>
+            <p>
+                At Axis Bank, I engineered a suite of analytical tools and performance dashboards to optimize internal business operations. 
+                By leveraging predictive modeling and data visualization, 
+                I improved RM earnings estimate accuracy by 21% and built gamified simulations that enhanced performance tracking for senior leadership. 
+                This role allowed me to apply technical logic specifically K-means clustering and statistical analysis, to solve large-scale business challenges 
+                and improve the efficiency of incentive structures within the bank.
+            </p>
+            <span> Tableau · Excel · K-Means</span>
         </div>
     </section>
 
@@ -118,61 +139,89 @@
             <div class="project-card">
                 <h4>Monetrix — Expense Tracker</h4>
                 <p>
-                    Android expense tracking app built with Kotlin and MVVM,
-                    featuring interactive charts and calendar-based tracking.
+                    Engineered a personal finance Android app with real-time spending insights and custom data filtering, 
+                    achieving a polished user experience for expense and income management.
                 </p>
-                <span>Kotlin · MVVM · Room · MPAndroidChart</span>
-                <a href="https://play.google.com/store/apps/details?id=com.MStudios.monetrix">View</a>
+                <span>Kotlin · MVVM · Room · Google Ads · Jetpack Compose</span>
+                <a href="https://play.google.com/store/apps/details?id=com.MStudios.monetrix" target="_blank">Google Play</a>
+            </div>
+
+            <div class="project-card">
+                <h4>App Recommender</h4>
+                <p>
+                    Developed a predictive Android widget that suggests apps based on usage patterns,
+                    increasing user engagement by 23% through context-aware on-device recommendations.
+                </p>
+                <span>Kotlin · Cosine Similarity · WorkManager · Broadcast Receivers · Alarm Manager</span>
+                <a href="https://github.com/namanmawandia/App-Recommender" target="_blank">GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h4> Whatsup Messaging App</h4>
+                <p>
+                    Built a real-time one-to-one messaging platform with secure email registration and profile management, 
+                    focusing on streamlined user communication and instant message delivery.
+                </p>
+                <span>Java · Android Studio · XML · Firebase (Realtime DB & Auth)</span>
+                <a href="https://github.com/namanmawandia/whatsup" target="_blank">GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h4> AI Frame Interpolation</h4>
+                <p>
+                    Built a deep learning pipeline to upscale video frame rates from 60 to 120 FPS, 
+                    utilizing a cloud-native Kubernetes service on AWS for real-time video smoothing.
+                </p>
+                <span>Python · TensorFlow · CNNs · U-Net · AWS SageMaker · Docker · Kubernetes</span>
+            </div>
+
+            <div class="project-card">
+                <h4>Spatial Temporal Perception</h4>
+                <p>
+                    Implemented a high-performance action recognition arch for driver monitoring, 
+                    achieving greater accuracy on the DriveAct dataset while maintaining low-latency.
+                </p>
+                <span>Python · PyTorch · VideoMAEv2 · GCN · Transformers</span>
+                <a href="https://www.kaggle.com/code/namanmawandia/stpv3" target="_blank">Notebook</a>
             </div>
 
             <div class="project-card">
                 <h4>16-Bit Processor Design</h4>
                 <p>
-                    Designed and implemented a non-pipelined 16-bit processor
-                    with full FPGA bring-up and C/C++ integration.
+                    Designed and implemented a full hardware-software co-design of a 16-bit processor, 
+                    successfully validated through live FPGA demos for real-world system bring-up.
                 </p>
-                <span>Verilog · FPGA · Vivado · C/C++</span>
-                <a href="https://github.com/namanmawandia/16-bit-processor">GitHub</a>
+                <span>Verilog · FPGA · Vivado · C/C++ · ALU Design </span>
+                <a href="https://github.com/namanmawandia/16-bit-processor" target="_blank">GitHub</a>
             </div>
 
             <div class="project-card">
-                <h4>Client-Server Chat Application</h4>
+                <h4>Client-Server Chat App</h4>
                 <p>
-                    Scalable TCP chat system in C using select() to handle
-                    multiple concurrent clients without multithreading.
+                    Built a robust Linux-based messaging system using socket programming to manage concurrent connections 
+                    and offline message delivery without the overhead of multithreading.
                 </p>
                 <span>C · TCP/IP · Linux</span>
-                <a href="https://github.com/namanmawandia/Client-server_chat">GitHub</a>
+                <a href="https://github.com/namanmawandia/Client-server_chat" target="_blank">GitHub</a>
             </div>
 
             <div class="project-card">
                 <h4>Pintos Operating System</h4>
                 <p>
-                    Implemented priority scheduling, MLFQ scheduling,
-                    and system calls in a Unix-like OS environment.
+                    Implemented core kernel features including advanced thread scheduling and system call handlers, 
+                    significantly improving CPU efficiency by eliminating busy-waiting.
                 </p>
-                <span>C · OS Internals</span>
+                <span>C · OS Internals · Kernel · Thread Synchronization</span>
             </div>
 
         </div>
     </section>
 
-    <!-- SKILLS -->
-    <section id="skills" class="section">
-        <h3>Technical Skills</h3>
-        <div class="skills-grid">
-            <span>C / C++</span>
-            <span>Python</span>
-            <span>Kotlin</span>
-            <span>Java</span>
-            <span>Linux</span>
-            <span>TCP/IP</span>
-            <span>Android</span>
-            <span>Verilog</span>
-            <span>TensorFlow</span>
-            <span>FPGA</span>
-        </div>
-    </section>
+    <!-- <section id="leadership" class="section">
+        <h3>Leadership</h3>
+
+
+    </section> -->
 
     <footer>
         <p>© 2026 Naman Mawandia</p>
