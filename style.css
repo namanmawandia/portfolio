@@ -99,8 +99,9 @@ nav {
 }
 
 .hero h2 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-top: 0.5rem;
+    font-weight: 700;
     color: #7aa2f7;
 }
 
@@ -148,6 +149,10 @@ nav {
     color: #f0f6fc;
 }
 
+a{
+    color: var(--accent);
+    text-decoration: none;
+}
 /* CARDS */
 .card {
     background: var(--bg-card);
@@ -170,6 +175,14 @@ nav {
     margin-top: 1rem;
     padding-left: 1.2rem;
 }
+.card span {
+    display: block;
+    margin-top: 0.8rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    font-family: monospace;
+    color: var(--text-muted);
+}
 
 /* PROJECTS */
 .projects-grid {
@@ -189,10 +202,21 @@ nav {
     color: var(--accent);
 }
 
+.project-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--accent);
+    box-shadow:
+        0 0 0 1px rgba(120, 170, 255, 0.08),
+        0 14px 45px rgba(0, 0, 0, 0.8),
+        0 0 26px rgba(90, 140, 220, 0.25);
+}
+
 .project-card span {
     display: block;
     margin-top: 0.8rem;
     font-size: 0.85rem;
+    font-weight: 700;
+    font-family: monospace;
     color: var(--text-muted);
 }
 
